@@ -15,7 +15,18 @@ A low-cost automated optical inspection (AOI) system for a production line. It u
 
 ## 🖥️ Hardware
 
-<p align="center"><img src="images/hardware.png" alt="Inspection hardware" width="70%"></p>
+<table>
+  <tr>
+    <td align="center"><img src="images/system_architecture.png" alt="AOI system architecture" width="100%"></td>
+    <td align="center"><img src="images/hardware.png" alt="Inspection hardware" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>System architecture</b></td>
+    <td align="center"><b>Hardware setup</b></td>
+  </tr>
+</table>
+
+Inside a black acrylic chamber, an LED light source and a camera with a lens and polarizing filter photograph each product as the conveyor carries it past. A photoelectric sensor triggers each inspection. The Jetson Nano runs the inference and turns on the alarm lamp when a product fails.
 
 - **Conveyor:** an existing idle belt conveyor, modified for inspection
 - **Camera chamber:** an enclosure that controls lighting
@@ -41,7 +52,7 @@ A low-cost automated optical inspection (AOI) system for a production line. It u
 
 ### Multithreaded architecture
 
-<p align="center"><img src="images/thread_structure.png" alt="Thread structure" width="35%"></p>
+<p align="center"><img src="images/multithread_architecture.png" alt="Multithreaded architecture" width="60%"></p>
 
 The program runs two threads so that inference never freezes the GUI.
 
@@ -76,13 +87,17 @@ The program runs two threads so that inference never freezes the GUI.
 
 <p align="center"><img src="images/detection_results.png" alt="Detection results" width="90%"></p>
 
-**GUI: work mode.** You select a product and start or stop the inspection. The screen shows the OK/NG result, the latest image and the running counts.
+**GUI: work mode.** You select a product and start or stop the inspection. The screen shows the OK/NG result, the latest image, the running counts and the inspection history.
 
 <p align="center"><img src="images/gui_work_mode.png" alt="GUI work mode" width="70%"></p>
 
+**GUI: camera mode.** You can preview the live camera feed and set the flip method, frame rate and exposure time.
+
+<p align="center"><img src="images/gui_camera_mode.png" alt="GUI camera mode" width="70%"></p>
+
 **GUI: settings mode.** File paths, I/O pins and operation settings are saved to `config.yaml`.
 
-<p align="center"><img src="images/gui_settings_mode.png" alt="GUI settings mode" width="85%"></p>
+<p align="center"><img src="images/gui_settings_mode.png" alt="GUI settings mode" width="70%"></p>
 
 ## 🔭 Future Work
 
