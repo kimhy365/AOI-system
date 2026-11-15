@@ -110,7 +110,25 @@ The program runs two threads so that inference never freezes the GUI.
 
 _Code will be added._
 
-## 📄 Related Work
+## 📄 Reference
+
+This work is part of the following Ph.D. dissertation:
+
+Hyun-Yong Kim, "Real-Time Automated Vision Inspection for Product Label Classification Using Edge AI," Ph.D. dissertation, Department of Smart Factory Management, Chungbuk National University, Republic of Korea, Aug. 2025.
+
+```bibtex
+@phdthesis{kim2025realtime,
+  title  = {Real-Time Automated Vision Inspection for Product Label Classification Using Edge AI},
+  author = {Kim, Hyun-Yong},
+  school = {Chungbuk National University},
+  type   = {Ph.D. dissertation},
+  note   = {Department of Smart Factory Management},
+  month  = aug,
+  year   = {2025}
+}
+```
+
+## 🔗 Related Work
 
 - [Attention-based CNN (A-CNN)](https://github.com/kimhy365/AttentionCNN): small-object classification for AOI, IEEE TIM 2025
 - [Hybrid TensorRT–PyTorch inference](https://github.com/kimhy365/TensorRT-PyTorch): accelerating A-CNN on the Jetson Nano
