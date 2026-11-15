@@ -54,7 +54,7 @@ Inside a black acrylic chamber, an LED light source and a camera with a lens and
 
 ### Multithreaded architecture
 
-<p align="center"><img src="images/multithread_architecture.png" alt="Multithreaded architecture" width="40%"></p>
+<p align="center"><img src="images/multithread_architecture.png" alt="Multithreaded architecture" width="63%"></p>
 
 The program runs two threads so that inference never freezes the GUI.
 
