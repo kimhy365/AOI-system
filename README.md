@@ -15,14 +15,16 @@ A low-cost automated optical inspection (AOI) system for a production line. It u
 
 ## 🖥️ Hardware
 
+<p align="center"><img src="images/system_architecture.png" alt="AOI system architecture" width="60%"><br><b>System architecture</b></p>
+
 <table>
   <tr>
-    <td align="center"><img src="images/system_architecture.png" alt="AOI system architecture" width="100%"></td>
-    <td align="center"><img src="images/hardware.png" alt="Inspection hardware" width="100%"></td>
+    <td align="center" width="50%"><img src="images/hardware.png" alt="Hardware setup" height="260"></td>
+    <td align="center" width="50%"><img src="images/camera_chamber.png" alt="Camera chamber" height="260"></td>
   </tr>
   <tr>
-    <td align="center"><b>System architecture</b></td>
     <td align="center"><b>Hardware setup</b></td>
+    <td align="center"><b>Camera chamber</b></td>
   </tr>
 </table>
 
@@ -52,7 +54,7 @@ Inside a black acrylic chamber, an LED light source and a camera with a lens and
 
 ### Multithreaded architecture
 
-<p align="center"><img src="images/multithread_architecture.png" alt="Multithreaded architecture" width="60%"></p>
+<p align="center"><img src="images/multithread_architecture.png" alt="Multithreaded architecture" width="40%"></p>
 
 The program runs two threads so that inference never freezes the GUI.
 
