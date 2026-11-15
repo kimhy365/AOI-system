@@ -1,4 +1,4 @@
-# AOI System: Deep Learning Vision Inspection on Edge Device
+# AOI System: Deep Learning Vision Inspection on Jetson Nano
 
 A low-cost automated optical inspection (AOI) system for a production line. It uses a YOLOv5 model on an NVIDIA Jetson Nano to check whether the correct product label is applied. The system was developed in 2022 by the Industrial AI Research Center, Chungbuk National University, together with SUNIL Co., Ltd.
 
@@ -15,7 +15,7 @@ A low-cost automated optical inspection (AOI) system for a production line. It u
 
 ## 🖥️ Hardware
 
-<p align="center"><img src="images/system_architecture.png" alt="AOI system architecture" width="60%"><br><b>System architecture</b></p>
+<p align="center"><img src="images/system_architecture.png" alt="AOI system architecture" width="500"><br><b>System architecture</b></p>
 
 <table>
   <tr>
@@ -54,7 +54,7 @@ Inside a black acrylic chamber, an LED light source and a camera with a lens and
 
 ### Multithreaded architecture
 
-<p align="center"><img src="images/multithread_architecture.png" alt="Multithreaded architecture" width="50%"></p>
+<p align="center"><img src="images/multithread_architecture.png" alt="Multithreaded architecture" width="520"></p>
 
 The program runs two threads so that inference never freezes the GUI.
 
