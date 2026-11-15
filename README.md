@@ -114,7 +114,10 @@ _Code will be added._
 
 This work is part of the following Ph.D. dissertation:
 
-Hyun-Yong Kim, "Real-Time Automated Vision Inspection for Product Label Classification Using Edge AI," Ph.D. dissertation, Department of Smart Factory Management, Chungbuk National University, Republic of Korea, Aug. 2025.
+Hyun-Yong Kim, "[Real-Time Automated Vision Inspection for Product Label Classification Using Edge AI](https://cbnul.summon.serialssolutions.com/#!/search?bookMark=eNrjYmDJy89L5WQICUpNzNENycxNVXAsLcnPTSxJTVEIyyzOzM9T8MwrLkhNLgEx0_KLFAKK8lNKk0sUfBKTUnMUnHMSi4sz0zKTE8EKQosz89IVXFPSgeZ48jCwlBSVpvJCKG4GWzfXEGcP3eSkvNKc-JTk_JwciLHx-YmZ8eXl5Shieakl8QYgYGpkYWxiZmhMqX4A6stPsg)," Ph.D. dissertation, Department of Smart Factory Management, Chungbuk National University, Republic of Korea, Aug. 2025.
+
+➡️ [View in the CBNU Library](https://cbnul.summon.serialssolutions.com/#!/search?bookMark=eNrjYmDJy89L5WQICUpNzNENycxNVXAsLcnPTSxJTVEIyyzOzM9T8MwrLkhNLgEx0_KLFAKK8lNKk0sUfBKTUnMUnHMSi4sz0zKTE8EKQosz89IVXFPSgeZ48jCwlBSVpvJCKG4GWzfXEGcP3eSkvNKc-JTk_JwciLHx-YmZ8eXl5Shieakl8QYgYGpkYWxiZmhMqX4A6stPsg)  
+➡️ [Download the dissertation (PDF)](docs/Dissertation202508-AOI-CBNU-KimHY.pdf) (CC BY-NC-ND 2.0 KR)
 
 ```bibtex
 @phdthesis{kim2025realtime,
